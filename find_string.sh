@@ -3,7 +3,7 @@
 echo "entrez le nom du fichier :"
 read fichier
 #stock le nom dans la variable 'fichier'
-echo "bien,maintenant entrez la chaine recherchée ici"
+
 read chaine
 #stock le nom dans la variable 'chaine'
 
