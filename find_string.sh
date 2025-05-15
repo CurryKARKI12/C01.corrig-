@@ -1,13 +1,13 @@
 #!/bin/bash
 # Ce script recherche une chaîne de caractères spécifique dans un fichier
-read fichier
+read f
 #stock le nom dans la variable 'fichier'
 
-read chaine
+read c
 #stock le nom dans la variable 'chaine'
 
-if grep -q "$chaine" "$fichier"; then
-    echo "la chaine '$chaine' a été trouvée dans $fichier."
+if grep -q "$c" "$f"; then
+    echo "la chaine '$c' a été trouvée dans $f."
 else
-    echo "la chaine '$chaine' n'a pas été trouvée dans $fichier." 
+    echo "la chaine '$c' n'a pas été trouvée dans $f." 
 fi 
